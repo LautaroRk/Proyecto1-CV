@@ -1,0 +1,118 @@
+body {
+    font-family: 'PT Sans';
+    color: #323B3C;
+}
+
+.perfil {
+    width: 26%;
+    height: 100%;
+    position: fixed;
+    background-color: #63B2BB;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: auto;
+}
+
+.perfil ul {
+    margin: 25px 18%;
+}
+
+a.botonera {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding: 12px 0;
+    border-bottom: 2px solid #323B3C;  
+}
+
+#foto {
+    width: 65%;
+    border-radius: 50%;
+    margin: 30% 10% 10% 10%;
+    border: 3px solid #fff;
+}
+
+.contenido {
+    width: 68%;
+    margin: 2% 3%;
+    float: right;
+}
+
+#portfolio {
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+#portfolio ul {
+    text-align: center;
+}
+
+#portfolio ul li {
+    display: inline-block;
+}
+
+#portfolio img {
+    width: 160px;
+    float: left;
+}
+
+article {
+    padding: 30px 50px 2px 50px;
+    margin-bottom: 40px;
+    background-color: rgb(237, 239, 241);
+}
+
+h1 {
+    color: #323B3C;
+    font-family: 'PT Sans Narrow';
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 60px;
+	letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'PT Sans Narrow';
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #63B2BB;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(79, 87, 88);
+}
+
+h3 {
+    color: #323B3C;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+p {
+	color: #516163;
+	font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+
+#quiensoy ul {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+#quiensoy li {
+    border-bottom: 2px dotted #a1b4b8;
+    margin-left: 20px;
+    margin-right: 80px;
+    font-size: 15px;
+    color: rgb(31, 37, 37);
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+}
